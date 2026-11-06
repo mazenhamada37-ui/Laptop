@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>سيرفس لاب | مركز صيانة وإصلاح اللابتوب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+<a class="logo" href="#top">سيرفس<b>لاب</b></a>
+<button class="burger" aria-label="القائمة" aria-expanded="false" id="burger">☰</button>
+<ul id="menu">
+<li><a href="#services">الخدمات</a></li><li><a href="#plans">الباقات</a></li><li><a href="#about">عن المركز</a></li><li><a href="#reviews">آراء العملاء</a></li><li><a href="#contact">تواصل معنا</a></li>
+</ul></div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+<div>
+<h1>لابتوبك بطيء أو بايظ؟ نشخّصه مجاناً ونصلحه في نفس اليوم.</h1>
+<p>فنيون متخصصون في صيانة الهاردوير والسوفتوير، قطع أصلية، وضمان مكتوب على كل إصلاح.</p>
+<div class="cta"><a class="btn" href="#contact">احجز فحص مجاني</a><a class="btn ghost" href="#plans">شوف الباقات</a></div>
+</div>
+<div class="term" aria-live="polite" id="term">
+<div class="bar"><i></i><i></i><i></i></div>
+<div id="rows"></div>
+<div class="meter"><span id="meter"></span></div>
+<button id="rescan" type="button">إعادة الفحص</button>
+</div>
+</div></section>
+
+<section id="services"><div class="wrap">
+<h2>الخدمات المقدمة</h2>
+<p class="lead">كل ما يحتاجه لابتوبك تحت سقف واحد، مع شرح واضح للمشكلة قبل أي تنفيذ.</p>
+<div class="grid">
+<article class="card svc"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg><h3>صيانة الهاردوير</h3><p>إصلاح الشاشة والكيبورد والشاحن والتسخين والمازر بورد.</p></article>
+<article class="card svc"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><h3>تثبيت ويندوز وبرامج</h3><p>نسخة أصلية مع التعريفات والبرامج الأساسية جاهزة للاستخدام.</p></article>
+<article class="card svc"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><h3>إزالة الفيروسات</h3><p>تنظيف كامل للبرمجيات الخبيثة وحماية ضد عودتها.</p></article>
+<article class="card svc"><svg viewBox="0 0 24 24"><path d="M4 18a8 8 0 1116 0"/><path d="M12 18l4-6"/></svg><h3>تحسين الأداء</h3><p>تنظيف الحرارة والسوفتوير وضبط الإعدادات لسرعة أعلى.</p></article>
+<article class="card svc"><svg viewBox="0 0 24 24"><rect x="2" y="8" width="20" height="8" rx="1"/><path d="M6 12h.01M10 12h.01M14 12h4"/></svg><h3>ترقية RAM وSSD</h3><p>نختار القطعة المناسبة لجهازك ونركبها وننقل بياناتك.</p></article>
+</div></div></section>
+
+<section id="plans" class="alt"><div class="wrap">
+<h2>باقات الصيانة والأسعار</h2>
+<p class="lead">أسعار ثابتة ومعلنة. الفحص مجاني في كل الباقات. (الأسعار تجريبية للعرض.)</p>
+<div class="grid plans">
+<article class="card plan"><h3>أساسية</h3><div class="price">250 <small>ج.م</small></div><ul><li>تثبيت ويندوز</li><li>برامج أساسية</li><li>إزالة فيروسات بسيطة</li><li>ضمان 7 أيام</li></ul><a class="btn ghost" href="#contact" data-plan="أساسية">اختر الباقة</a></article>
+<article class="card plan pop"><span class="tag">الأكثر طلباً</span><h3>شاملة</h3><div class="price">600 <small>ج.م</small></div><ul><li>كل ما في الأساسية</li><li>تنظيف داخلي وتغيير المعجون الحراري</li><li>تحسين الأداء</li><li>ضمان 30 يوماً</li></ul><a class="btn" href="#contact" data-plan="شاملة">اختر الباقة</a></article>
+<article class="card plan"><h3>ترقية</h3><div class="price">من 900 <small>ج.م</small></div><ul><li>ترقية RAM أو SSD</li><li>نقل البيانات والنظام</li><li>الفحص والتركيب</li><li>ضمان على القطعة</li></ul><a class="btn ghost" href="#contact" data-plan="ترقية">اختر الباقة</a></article>
+</div></div></section>
+
+<section id="about"><div class="wrap">
+<h2>عن المركز وفريق العمل</h2>
+<p class="lead">نعمل في صيانة الأجهزة منذ أكثر من 8 سنوات. نشرح العطل بصراحة، ولا نغيّر قطعة إلا عند الحاجة.</p>
+<div class="stats"><div>+5000<span>جهاز تم إصلاحه</span></div><div>8<span>سنوات خبرة</span></div><div>98%<span>عملاء راضون</span></div></div>
+<div class="grid">
+<article class="card person"><div class="avatar">أ</div><h3>أحمد سمير</h3><p>مدير المركز، متخصص مازر بورد</p></article>
+<article class="card person"><div class="avatar">م</div><h3>محمود علي</h3><p>مهندس سوفتوير وأمن معلومات</p></article>
+<article class="card person"><div class="avatar">ي</div><h3>يوسف حسن</h3><p>فني ترقيات وتبريد</p></article>
+</div></div></section>
+
+<section id="reviews" class="alt"><div class="wrap">
+<h2>آراء العملاء</h2>
+<div class="stage" id="stage">
+<div class="slide on card"><blockquote>اللابتوب كان بيقفل لوحده من السخونة. نضفوه وغيّروا المعجون وخلصوه في ساعتين، والفرق ملحوظ جداً.</blockquote><b>سارة محمد</b> · طالبة</div>
+<div class="slide card"><blockquote>رقّوا جهازي بـ SSD ونقلوا كل بياناتي. بقى يفتح في ثواني، والسعر كان زي ما اتفقنا بالظبط.</blockquote><b>كريم عادل</b> · مصمم</div>
+<div class="slide card"><blockquote>شرحوا لي العطل بوضوح وقالوا إن مفيش داعي لتغيير الشاشة. وفروا عليا فلوس كتير.</blockquote><b>منى إبراهيم</b> · محاسبة</div>
+<div class="dots" id="dots"></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>تواصل معنا</h2>
+<p class="lead">اكتب مشكلتك وهنكلمك على واتساب خلال ساعة في مواعيد العمل.</p>
+<form id="form" novalidate>
+<label>الاسم<input id="name" autocomplete="name"><span class="err"></span></label>
+<label>رقم الموبايل<input id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="01XXXXXXXXX"><span class="err"></span></label>
+<label>الخدمة المطلوبة<select id="service"><option>صيانة هاردوير</option><option>تثبيت ويندوز وبرامج</option><option>إزالة فيروسات</option><option>تحسين الأداء</option><option>ترقية RAM / SSD</option></select></label>
+<label>وصف المشكلة<textarea id="msg" rows="4"></textarea><span class="err"></span></label>
+<button class="btn" type="submit">أرسل الطلب</button>
+</form>
+<div class="done" id="done" role="status"><h3>تم تجهيز طلبك</h3><p>فتحنا لك واتساب برسالة جاهزة. اضغط إرسال هناك وسنرد عليك قريباً.</p></div>
+</div></section>
+</main>
+
+<a class="wa" href="https://wa.me/201007325032" target="_blank" rel="noopener">واتساب</a>
+<footer>© 2026 سيرفس لاب · القاهرة · يومياً من 10 صباحاً إلى 10 مساءً</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
